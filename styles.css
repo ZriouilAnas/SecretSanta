@@ -5,14 +5,53 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   overflow: hidden;
+}
+h1 {
+  font-size: 6em;
+}
+p {
+  font-size: 2em;
+}
+.btn {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+input {
+  padding: 10px;
+}
+a {
+  padding: 10px;
+  color: rosybrown;
+  font-size: large;
+  background: red;
+}
+label {
+  padding: 10px;
+  color: rgb(29, 4, 4);
+  font-size: large;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(131, 186, 234);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: large;
 }
 #sky {
   z-index: -3;
   width: 100%;
-  background-color: rgb(6, 123, 226);
+  background-color: rgb(4, 62, 112);
   height: 60%;
   position: fixed;
   top: 0;
