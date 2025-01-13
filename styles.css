@@ -27,6 +27,10 @@ p {
 }
 input {
   padding: 10px;
+  width: 20%;
+  height: 20%;
+  background-color: rgb(255, 127, 219);
+  font-size: larger;
 }
 a {
   padding: 10px;
@@ -37,16 +41,19 @@ a {
 label {
   padding: 10px;
   color: rgb(29, 4, 4);
-  font-size: large;
+  font-size: 2em;
+  background-color: antiquewhite;
 }
 button {
   padding: 10px;
   margin: 10px;
   background-color: rgb(131, 186, 234);
-  color: white;
+  color: rgb(164, 17, 17);
   border: none;
   cursor: pointer;
   font-size: large;
+  height: 20%;
+  border: #6b492b solid;
 }
 #sky {
   z-index: -3;
@@ -75,21 +82,56 @@ button {
   border-right: 100px solid transparent;
   border-bottom: 150px solid green;
 }
+#leves2 {
+  position: fixed;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  bottom: 340;
+  left: 100;
+  border-left: 150px solid transparent;
+  border-right: 140px solid transparent;
+  border-bottom: 150px solid green;
+}
 #trunk {
   position: fixed;
   z-index: -1;
   width: 4%;
   height: 16%;
   background-color: #6b492b;
-  bottom: 150;
+  bottom: 160;
   right: 160;
 }
 #trunk2 {
   position: fixed;
   z-index: -1;
   width: 4%;
-  height: 16%;
+  height: 20%;
   background-color: #6b492b;
   bottom: 180;
-  left: 160;
+  left: 190;
+}
+#dear {
+  position: fixed;
+  z-index: -1;
+  width: 4%;
+  height: 20%;
+  bottom: 360;
+  right: 560;
+}
+#santa {
+  position: fixed;
+  z-index: -1;
+  width: 4%;
+  height: 20%;
+  bottom: 360;
+  left: 360;
+}
+#giftIMG {
+  position: fixed;
+  z-index: -1;
+  width: 2%;
+  height: 20%;
+  top: 60;
+  left: 260;
 }
