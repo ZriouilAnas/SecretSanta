@@ -1,0 +1,24 @@
+{
+  "name": "secret-santa",
+  "version": "1.0.0",
+  "description": "Secret Santa Small School Project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZriouilAnas/SecretSanta.git"
+  },
+  "author": "Anas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZriouilAnas/SecretSanta/issues"
+  },
+  "homepage": "https://github.com/ZriouilAnas/SecretSanta#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0"
+  }
+}
