@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Secret Santa</title>
+  </head>
+  <body>
+    <br />
+    <div class="gift">
+      <h1>qui je dois donner un cadeau?</h1>
+      <label id="gift" for="">vore nom</label>
+
+      <input id="recINP" type="text" />
+      <button id="recBTN">Show your blabla</button>
+    </div>
+  </body>
+  <script>
+    const recINP = document.getElementById("recINP");
+    const recBTN = document.getElementById("recBTN");
+    const santaList = JSON.parse(sessionStorage.getItem("santaList"));
+    const gift = document.getElementById("gift");
+    const showREC = () => {
+      const recName = document.createElement("h2");
+      const xd = recINP.value;
+      console.log(santaList);
+      console.log(xd);
+      if (santaList[xd] !== undefined) {
+        alert(santaList[xd]);
+
+        recName.innerText = santaList[xd];
+      } else {
+        alert(`ce nom '${xd}' ne trouve pas. inserer un autre nom`);
+        recName.innerText = `ce nom '${xd}' ne trouve pas. inserer un autre nom`;
+      }
+      gift.appendChild(recName);
+    };
+    recBTN.addEventListener("click", showREC);
+  </script>
+</html>

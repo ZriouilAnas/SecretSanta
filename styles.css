@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#sky {
+  z-index: -2;
+  width: 100%;
+  background-color: rgb(6, 123, 226);
+  height: 60%;
+  position: fixed;
+  top: 0;
+}
+#snow {
+  z-index: -2;
+  width: 100%;
+  background-color: rgb(202, 206, 210);
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+}
+#leves {
+  z-index: -2;
+  height: 7%;
+  background-color: rgb(10, 97, 14);
+  position: fixed;
+  bottom: 5;
+  right: 7;
+}
+#trunk {
+  z-index: -2;
+  height: 5%;
+  background-color: rgba(165, 42, 42, 0.561);
+  bottom: 5;
+  right: 7;
+}
