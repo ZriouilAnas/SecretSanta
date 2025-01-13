@@ -44,11 +44,11 @@
         alert(santaList[xd]);
 
         recName.innerText = santaList[xd];
+        gift.appendChild(recName);
       } else {
         alert(`ce nom '${xd}' ne trouve pas. inserer un autre nom`);
         recName.innerText = `ce nom '${xd}' ne trouve pas. inserer un autre nom`;
       }
-      gift.appendChild(recName);
     };
     recBTN.addEventListener("click", showREC);
   </script>
