@@ -10,7 +10,7 @@ body {
   overflow: hidden;
 }
 #sky {
-  z-index: -2;
+  z-index: -3;
   width: 100%;
   background-color: rgb(6, 123, 226);
   height: 60%;
@@ -26,17 +26,31 @@ body {
   bottom: 0;
 }
 #leves {
-  z-index: -2;
-  height: 7%;
-  background-color: rgb(10, 97, 14);
   position: fixed;
-  bottom: 5;
-  right: 7;
+
+  width: 0;
+  height: 0;
+  bottom: 280;
+  right: 100;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid green;
 }
 #trunk {
-  z-index: -2;
-  height: 5%;
-  background-color: rgba(165, 42, 42, 0.561);
-  bottom: 5;
-  right: 7;
+  position: fixed;
+  z-index: -1;
+  width: 4%;
+  height: 16%;
+  background-color: #6b492b;
+  bottom: 150;
+  right: 160;
+}
+#trunk2 {
+  position: fixed;
+  z-index: -1;
+  width: 4%;
+  height: 16%;
+  background-color: #6b492b;
+  bottom: 180;
+  left: 160;
 }
